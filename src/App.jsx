@@ -10,10 +10,10 @@ export default function App() {
     <Router>
       <CustomNavbar />
       <Routes>
-        <Route path="p182/" element={<Home />} />
-        <Route path="p182/who-we-are" element={<WhoWeAre />} />
-        <Route path="p182/get-involved" element={<GetInvolved />} />
-        <Route path="p182/affiliates" element={<Affiliates />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/who-we-are" element={<WhoWeAre />} />
+        <Route path="/get-involved" element={<GetInvolved />} />
+        <Route path="/affiliates" element={<Affiliates />} />
       </Routes>
     </Router>
   );
