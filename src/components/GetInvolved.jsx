@@ -4,13 +4,13 @@ export default function GetInvolved() {
   return (
     <Container style={{ marginTop: '80px' }}>
       <h1>Get Involved</h1>
-      <Form>
-        <Form.Group className="mb-3" controlId="formEventSignup">
-          <Form.Label>Sign up for a Volunteer Event</Form.Label>
-          <Form.Control type="email" placeholder="Enter your email" />
-        </Form.Group>
-        <Button variant="primary" type="submit">Sign Up</Button>
-      </Form>
+      <div className="mt-4">
+        <h2>Volunteer Opportunities</h2>
+        <p>Join us in making a difference! Check out our volunteer opportunities.</p>
+        <a href="https://habitatdane.volunteerhub.com/vv2/#_" target="_blank" rel="noopener noreferrer">
+          Click here to get involved
+        </a>
+      </div>
       <Form className="mt-4">
         <Form.Group className="mb-3" controlId="formNewsletter">
           <Form.Label>Subscribe to our Newsletter</Form.Label>
